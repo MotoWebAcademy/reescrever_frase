@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paraphraser</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Caipora: Reescrever frases com IA</h1>
+    </div>
+    <div class="container">
+        <div class="editor-container">
+            <div class="editor">
+                <h2>Editor</h2>
+                <textarea id="input-box" placeholder="Digite ou cole o texto aqui"></textarea>
+                <button id="clear-btn" class="editor-clear-button">
+                    <img src="https://img.icons8.com/material-sharp/24/000000/trash--v1.png"/>
+                </button>
+                <button id="paraphrase-btn">Paraphrase</button>
+                <div class="word-counter" id="word-counter">0/125</div>
+            </div>
+            <div class="output">
+                <h2>Output</h2>
+                <div id="output-box"></div>
+                <button id="copy-btn" class="output-copy-button">
+                    <img src="https://img.icons8.com/material-sharp/24/000000/copy--v1.png"/>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        Dicionário Caipora - Moto Academy - 2024
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
